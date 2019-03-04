@@ -54,7 +54,11 @@ namespace HelloWorld
             System.Console.WriteLine($"Your random number is {rand}");
             System.Console.WriteLine(IsNumberHigherThan5(rand));
 
-            Console.WriteLine("Hello World, welcome to .net!");
+            //I/O
+
+            var input = Console.ReadLine();
+
+            Console.WriteLine($"You typed in {input}");
         }
     }
 }
