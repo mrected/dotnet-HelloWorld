@@ -6,13 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            // int score = 5;
-            // // float fl = 5.5f;
-            // // decimal dec;
-            // // double dou;
-
-            // score = 5.5;
-
+            // variables
             var score = 5;
             score = 12;
             score++;
@@ -20,8 +14,19 @@ namespace HelloWorld
 
             Console.WriteLine(score);
 
+            // if statements
+
+            if(score < 23){
+                System.Console.WriteLine("Team 1 wins");
+            } else if (score > 35) {
+                System.Console.WriteLine("Team 2 wins");
+            } else {
+                System.Console.WriteLine("tie");
+            }
+
+
             // loops
-            // if 
+            
             var isRunning = true;
 
             while(score<22){
